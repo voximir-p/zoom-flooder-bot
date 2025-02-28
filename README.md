@@ -3,7 +3,7 @@ If someone know it is you, **GET YOUR OWN RISK**!
 
 # Zoom Flooder Bot
 A bot that automatically join a Zoom meeting on browser.<br>
-This used  [**Python**](https://www.python.org) and **[Selenium](https://pypi.org/project/selenium) Webdriver**.<br>
+This used  [**Python**](https://www.python.org) and **[Selenium](https://pypi.org/project/selenium) Webdriver**.<br> And Concurrent Multithreading
 You can check change logs at the bottom!
 
 ## Installing
@@ -28,4 +28,5 @@ You can start using it by running `python main.py` command.<br>
 
 # Change Logs
 V0.1 Beta - Base of all!
+
 V1 Release - Multithreading, Update Selenium, Disable OpenGL Error, Rewrite Input system, Rewrite Exit system, Add Input Checks, Fix Bugs.
