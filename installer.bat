@@ -9,7 +9,8 @@ goto :choice
 :continue
 cls
 echo Installing Please wait...
-pip install -r requirements.txt
+pip install selenium
+pip install keyboard
 cls
 echo Installed!
 pause
