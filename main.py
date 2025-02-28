@@ -49,7 +49,7 @@ try:
 except FileNotFoundError:
     print("Error: 'defualt.txt' file not found!")
     exit()
-threadCnt = input('Thread Count (Blank for 1): ').strip() or default_data[0]
+threadCnt = input('Thread Count (Blank for Default): ').strip() or default_data[0]
 meetingID = input('Meeting ID (Blank for Default): ').strip() or default_data[1]
 meetingPasscode = input('Meeting Passcode (Blank for Default): ').strip() or default_data[2]
 numberOfBots = int(input('Number of Bots: '))
