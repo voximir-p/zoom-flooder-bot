@@ -14,7 +14,7 @@ Requierments
 
 Instructions :
 1. Run **installer.bat** to install pip dependencies
-2. [**install**](https://googlechromelabs.github.io/chrome-for-testing/#stable) download chromedriver that corresponds to your operating system and put it in the same directory as the project
+2. [**Download**](https://googlechromelabs.github.io/chrome-for-testing/#stable) chromedriver that corresponds to your operating system and put the executable file in the same directory as the project
 
 ## Usage
 
