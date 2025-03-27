@@ -1,29 +1,25 @@
-# DISCLAMBER
+# DISCLAIMER
 If someone know it is you, **GET YOUR OWN RISK**!
 
 # Zoom Flooder Bot
 A bot that automatically join a Zoom meeting on browser.<br>
-This used  [**Python**](https://www.python.org) and **[Selenium](https://pypi.org/project/selenium) Webdriver**.<br>
+This used  [**Python**](https://www.python.org) and **[Selenium](https://pypi.org/project/selenium) Webdriver**.<br> And Concurrent Multithreading
 You can check change logs at the bottom!
 
 ## Installing
 Requierments
 - selenium
 - keyboard
+- chromedriver
 
-You can Manual Installing by running these command
-```
-pip install selenium
-pip insatll keyboard
-```
-
-Or Auto Installing by running **insatller.bat**
-
-Next, if you didn't use **Windows** you can [**install**](https://chromedriver.chromium.org/downloads) and replace **chromedriver.exe** with the file you downloaded.
+Instructions :
+1. Run **installer.bat** to install pip dependencies
+2. [**Download**](https://googlechromelabs.github.io/chrome-for-testing/#stable) chromedriver that corresponds to your operating system and put the executable file in the same directory as the project
 
 ## Usage
 
 You can start using it by running `python main.py` command.<br>
+1. Enter How many threads you would like to use (More threads = More power = More CPU usage)
 1. Enters Zoom Meeting ID and Passcode(I Recommand to test it with your meeting first!).
 2. Type in how many of the bot(s) you want(More bots = More RAM used, Use it carefully or your pc will explode!).
 3. Enter bot name(Leave a blank to randomize name), If you choose custom name and more that one bots, the name will be the same!
@@ -32,3 +28,5 @@ You can start using it by running `python main.py` command.<br>
 
 # Change Logs
 V0.1 Beta - Base of all!
+
+V1 Release - Multithreading, Update Selenium, Disable OpenGL Error, Rewrite Input system, Rewrite Exit system, Add Input Checks, Fix Bugs.
