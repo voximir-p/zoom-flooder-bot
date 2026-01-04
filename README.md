@@ -1,4 +1,4 @@
-# Zoom Browser Automation Bot
+# Zoom Flooder Bot
 
 > **⚠️ Important Notice**
 > This project is provided **for educational and testing purposes only**.
@@ -65,8 +65,8 @@ If you are unsure whether your use is allowed, **do not run this software**.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/zoom-browser-bot.git
-   cd zoom-browser-bot
+   git clone https://github.com/voximir-p/zoom-flooder-bot.git
+   cd zoom-flooder-bot
    ```
 
 2. Install Python dependencies:
